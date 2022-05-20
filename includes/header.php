@@ -1,3 +1,3 @@
 <header>
-        <div class="logo">TODO APP</div>
+        <div class="logo">BLOG APP</div>
     </header>
