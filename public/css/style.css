@@ -43,6 +43,17 @@ a {
     text-decoration: none;
 }
 
+/* utils */
+.p-20 {
+    padding: 20px;
+}
+
+.p-10 {
+    padding: 10px;
+}
+
+
+
 /* Boutons */
 .btn {
     background-color: white;
@@ -128,13 +139,22 @@ header {
 }
 /* Content */
 .content {
-    flex:1;
+    max-width: 100rem;
+    width: 100%;
+    flex: 1;
     display: flex;
-    flex-flow: row;
-    justify-content: center;
+    flex-flow: column;
+    align-self: center;
+    padding: 2rem 0;
     align-items: center;
 }
 
+.block {
+    border-radius: 3px;
+    border: var(--border);
+    background-color: white;
+    box-shadow: var(--box-shadow);
+}
 
 /* Footer */
 footer {
